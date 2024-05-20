@@ -2,6 +2,32 @@
     text-align: center;
 }
 
+ul.centered {
+    margin: 0 auto;
+    width: 400px;
+    list-style-type: none;
+}
+
+.logo {
+    position: absolute;
+    width: 50px;
+    height: auto;
+}
+
+.centeredimg {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+}   
+
+li {
+    padding: 8px;
+}
+
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Serif, "Sans Serif", "Script";
+}
+
+ul {
+    list-style-position: inside;
 }
